@@ -16,7 +16,8 @@ import Image from 'next/image'
 // Export an async function called getStaticProps for static site generation (SSG)
 export async function getStaticProps() {
   // Fetch the sorted post data at build time
-  const allPostsData = getSortedPostsData();
+  // const allPostsData = getSortedPostsData();
+  const allPostsData = await getSortedPostsData();
   // Return the fetched data as props to the Home component
   return {
     props: {

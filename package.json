@@ -10,6 +10,7 @@
     "@vercel/speed-insights": "^1.2.0",
     "bootstrap": "^5.3.8",
     "date-fns": "^4.1.0",
+    "got": "^14.6.4",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "latest",
